@@ -1,0 +1,11 @@
+/* Original Manykiln static layout, no external assets. */
+:root {font:17px/1.5 system-ui,sans-serif;color:#1c2530;background:#faf7ee}
+body{margin:0}main{max-width:56rem;margin:auto;padding:1.5rem}h1{line-height:1.15}
+label{display:block;font-weight:650;margin-top:1rem}textarea{display:block;width:100%;min-height:13rem;resize:vertical;font:14px/1.5 monospace}
+button,input,select,textarea{font-size:inherit;padding:.55rem;max-width:100%;box-sizing:border-box}
+button{background:#173f46;color:white;border-radius:.3rem;border:1px solid;cursor:pointer;margin:.3rem .3rem .3rem 0}
+a{color:#154e68}:focus-visible{outline:3px solid #b36112;outline-offset:3px}
+footer{border-top:1px solid #89949a;margin-top:2rem}.scroll{overflow:auto}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#fff;padding:1rem;border:1px solid #89949a}
+table{border-collapse:collapse;width:100%;font-size:.9rem}th,td{text-align:left;padding:.5rem;border-bottom:1px solid #89949a;overflow-wrap:anywhere}
+[hidden]{display:none!important}.hint{color:#46515b}#status{font-weight:650}input{width:100%}
+@media(max-width:34rem){main{padding:1rem}button{width:100%}}
